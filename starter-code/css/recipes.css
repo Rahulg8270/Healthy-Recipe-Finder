@@ -1,0 +1,14 @@
+
+img{
+    max-block-size: 100%;
+
+}
+.recipe-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.recipe-card img{
+    /* width: ; */
+    max-width: 300px;
+}

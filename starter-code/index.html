@@ -1,49 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Recipe finder website</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  Healthy meals, zero fuss
-
-  Discover eight quick, whole-food recipes that you can cook 
-  tonight—no processed junk, no guesswork.
-
-  Start exploring
-
-  What you'll get
-
-  Whole-food recipes
-  Each dish uses everyday, unprocessed ingredients.
-
-  Minimum fuss
-  All recipes are designed to make eating healthy quick and easy.
-
-  Search in seconds
-  Filter by name or ingredient and jump straight to the recipe you need.
-
-  Built for real life
-
-  Cooking shouldn't be complicated. These recipes come in under 
-  30 minutes of active time, fit busy schedules, and taste good 
-  enough to repeat. 
-
-  Whether you're new to the kitchen or just need fresh ideas, 
-  we've got you covered.
-
-  Ready to cook smarter?
-
-  Hit the button, pick a recipe, and get dinner on the table—fast.
-
-  Browse recipes
-
-  Made with ❤️ and 🥑
-
-</body>
+    <title>Frontend Mentor | Recipe finder website</title>
+  </head>
+  <body>
+    <header class="header-placeholder" data-component-url="navbar.html">
+      
+    </header>
+    <section class="hero">
+      <div class="hero__content">
+        <h1 class="hero-title">Healthy meals, zero fuss</h1>
+        <p class="hero-subtitle">
+          Discover eight quick, whole-food recipes that you can cook tonight—no
+          processed junk, no guesswork.
+        </p>
+        <a href="recipes.html" class="btn btn-primary"> Start exploring </a>
+      </div>
+      <div class="hero__image">
+        <img src="./assets/images/image-home-hero-large.webp" alt="" />
+      </div>
+    </section>
+    <section class="features">
+      <h2 class="features-benefit__title">What you'll get</h2>
+      <div class="feature-list">
+        <article class="feature">
+          <img src="" alt="" class="feature__icon" />
+          <h2 class="feature__title">Whole-food recipes</h2>
+          <p class="feature__description">
+            Each dish uses everyday, unprocessed ingredients.
+          </p>
+        </article>
+        <article class="feature">
+          <img src="" alt="" class="feature__icon" />
+          <h2 class="feature__title">Minimum fuss</h2>
+          <p class="feature__description">
+            All recipes are designed to make eating healthy quick and easy.
+          </p>
+        </article>
+        <article class="feature">
+          <img src="" alt="" class="feature__icon" />
+          <h2 class="feature__title">Search in seconds</h2>
+          <p class="feature__description">
+            Filter by name or ingredient and jump straight to the recipe you
+            need.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section class="pain-point">
+      <article class="pain-point__content">
+        <h2>Built for real life</h2>
+        <p class="pain-point__description">
+          Cooking shouldn't be complicated. These recipes come in under 30
+          minutes of active time, fit busy schedules, and taste good enough to
+          repeat.
+        </p>
+        <p>
+          Whether you're new to the kitchen or just need fresh ideas, we've got
+          you covered.
+        </p>
+      </article>
+      <figure class="pain-point__image">
+        <img src="./assets/images/image-home-real-life-large.webp" alt="" />
+      </figure>
+    </section>
+    <section class="cta">
+      <div class="cta__content">
+        <h2 class="cta__title">Ready to cook smarter?</h2>
+        <p class="cta__description">
+          Hit the button, pick a recipe, and get dinner on the table—fast.
+        </p>
+        <a href="recipes.html" class="btn btn-primary"> Browse recipes </a>
+      </div>
+    </section>
+    <footer>
+      <span> Made with ❤️ and 🥑 </span>
+      <span>
+        <img 
+          src="./assets/images/icon-tiktok.svg" 
+          alt="" />
+        <img
+          src="./assets/images/icon-instagram.svg"
+          alt=""
+        />
+        <img src="./assets/images/icon-bluesky.svg" alt="" />
+      </span>
+    </footer>
+    <!-- <script src="./data/recipes.json"></script> -->
+    <script type="module" src="./components/navbar.js"></script>
+    <script type="module" src="./js/index.js"></script>
+    <!-- reusable components across page navbar footer all pages -->
+     <!-- ready to cook component in the home page and about page -->
+  </body>
 </html>
