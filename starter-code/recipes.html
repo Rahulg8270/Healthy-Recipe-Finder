@@ -10,12 +10,14 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./css/recipes.css">
+    <link rel="stylesheet" href="./css/recipes.css" />
 
     <title>Frontend Mentor | Recipe finder website</title>
   </head>
   <body>
-    <header class="navbar"></header>
+    <header class="header-placeholder" data-component-url="navbar.html">
+      
+    </header>
     <section class="hero__content">
       <h1 class="hero__title">Explore our simple, healthy recipes</h1>
       <p class="hero__description">
@@ -58,9 +60,7 @@
       />
     </form>
 
-    <section class="recipe-cards">
-      
-    </section>
+    <section class="recipe-cards"></section>
 
     <!-- Populate recipes using data from the data.json file -->
 
@@ -74,5 +74,8 @@
     </footer>
 
     <script type="module" src="./js/recipes.js"></script>
+
+    <script type="module" src="./components/navbar.js"></script>
+    <script type="module" src="./js/index.js"></script>
   </body>
 </html>
